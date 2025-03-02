@@ -6,17 +6,8 @@
 package de.vierundsechzig.app;
 
 public class App {
-
-    private static int v=1;
-    
-    public static void doStuff(int x) {
-        v++; 
-        x+=v;
-    }
     
     public static void main(String[] args) {
-        int num = 10;
-        doStuff(num);
-        System.out.println("Result is " + num);
+        System.out.println("Result is " + HavingFunWithScopes.stuffCaller());
     }
 }
